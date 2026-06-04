@@ -5,7 +5,7 @@ import java.util.ArrayList;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        String path = ".\\data\\";
+        String path = "data\\";
         String excelFile = "student.xlsx";
         String outputFile = "studentOut.xlsx";
         ArrayList<Student> students;
