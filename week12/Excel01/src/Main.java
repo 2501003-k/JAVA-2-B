@@ -20,7 +20,7 @@ public class Main {
 
             handler.writeExcel(path + outputFile, students);
         } else {
-            System.out.printf("%s 파일이 존재하지 않아요.\n", path + excelFile);
+            System.out.printf("%s 파일이 존재하지 않아요!\n", path + excelFile);
         }
     }
 }
